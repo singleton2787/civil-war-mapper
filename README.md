@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Civil War GIS Mapper: Mechanicsville Edition
+### "What happened in my front yard?"
 
-## Getting Started
+An interactive, high-precision GIS application built to map the tactical movements and historical fortifications of the **Battle of Mechanicsville (Beaver Dam Creek)**. This project leverages modern web technologies to visualize 1862 troop positions over contemporary Virginia landscapes.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🗺️ Project Overview
+This tool is part of a broader effort to document the **Seven Days Battles**, specifically focusing on the area around Mechanicsville, VA. By layering historical military maps over modern Mapbox vector tiles, we can identify exactly where earthworks, artillery batteries, and skirmish lines sat in relation to today's property lines.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technical Stack
+* **Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Mapping Engine:** [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/)
+* **Spatial Analysis:** [@turf/turf](https://turfjs.org/) for calculating distances, headings, and area-of-effect for artillery range rings.
+* **Styling:** Tailwind CSS (v4)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📐 Mathematical Approach
+Utilizing the **OGI Framework** principles, this mapper treats historical data points as adaptive coordinates. 
+* **Coordinate Transformation:** Translating 19th-century hand-drawn surveyor units into decimal degrees.
+* **Geodesic Calculations:** Using Turf.js to ensure that line-of-sight and battery ranges account for the curvature of the Earth (WGS84 ellipsoid).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+1.  **Clone the repo:**
+    ```bash
+    git clone [https://github.com/singleton2787/civil-war-mapper.git](https://github.com/singleton2787/civil-war-mapper.git)
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Environment Variables:**
+    Create a `.env.local` file and add your Mapbox token:
+    ```text
+    NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_token_here
+    ```
+4.  **Run Development Server:**
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+## 📜 Historical Context: Beaver Dam Creek
+On June 26, 1862, this ground saw the first major engagement of the Seven Days Battles. This mapper focuses on the Confederate assault across the creek against the Union's formidable defensive line. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> *"The math of the battlefield is written in the dirt of the front yard."*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+**Author:** Michael Singleton  
+**Publisher:** Beaver Press / O'Really?  
+**Framework:** OGI (Open Graphical Intelligence)
