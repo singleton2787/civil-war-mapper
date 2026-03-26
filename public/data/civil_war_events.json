@@ -1,0 +1,486 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "Sewell's Point", "campaign": "Peninsula Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1861 }, "geometry": { "type": "Point", "coordinates": [-76.3267, 36.9547] } },
+    { "type": "Feature", "properties": { "name": "Aquia Creek", "campaign": "Unknown", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1861 }, "geometry": { "type": "Point", "coordinates": [-77.3157, 38.3893] } },
+    { "type": "Feature", "properties": { "name": "Big Bethel", "campaign": "Unknown", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1861 }, "geometry": { "type": "Point", "coordinates": [-76.425, 37.0937] } },
+    { "type": "Feature", "properties": { "name": "Blackburn's Ford", "campaign": "Unknown", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1861 }, "geometry": { "type": "Point", "coordinates": [-77.4492, 38.8042] } },
+    { "type": "Feature", "properties": { "name": "Manassas I", "campaign": "Unknown", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1861 }, "geometry": { "type": "Point", "coordinates": [-77.5227, 38.8147] } },
+    { "type": "Feature", "properties": { "name": "Ball's Bluff", "campaign": "Unknown", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1861 }, "geometry": { "type": "Point", "coordinates": [-77.5277, 39.1282] } },
+    { "type": "Feature", "properties": { "name": "Dranesville", "campaign": "Unknown", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1861 }, "geometry": { "type": "Point", "coordinates": [-77.3372, 38.9955] } },
+    { "type": "Feature", "properties": { "name": "Hampton Roads", "campaign": "Peninsula Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-76.3197, 36.9833] } },
+    { "type": "Feature", "properties": { "name": "Yorktown", "campaign": "Peninsula Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-76.534, 37.184] } },
+    { "type": "Feature", "properties": { "name": "Williamsburg", "campaign": "Peninsula Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-76.6659, 37.2642] } },
+    { "type": "Feature", "properties": { "name": "Eltham's Landing", "campaign": "Peninsula Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-76.8423, 37.5002] } },
+    { "type": "Feature", "properties": { "name": "Drewry's Bluff", "campaign": "Peninsula Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.4229, 37.4211] } },
+    { "type": "Feature", "properties": { "name": "Hanover Court House", "campaign": "Peninsula Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.3763, 37.7222] } },
+    { "type": "Feature", "properties": { "name": "Seven Pines", "campaign": "Peninsula Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.3042, 37.5209] } },
+    { "type": "Feature", "properties": { "name": "Oak Grove", "campaign": "Seven Days Battles", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.3292, 37.5154] } },
+    {
+ {
+  "type": "Feature",
+  "properties": {
+    "name": "Beaver Dam Creek",
+    "campaign": "Seven Days Battles",
+    "result": "Union",
+    "year": 1862,
+    "intel": "Union 5th Corps (Porter) held the high ground behind the creek. Lee launched his first major offensive here. Jackson's catastrophic delay at Hundley's Corner — arriving at dusk instead of noon — cost Lee a decisive victory and allowed Porter to withdraw intact.",
+    "timeline": [
+      {
+        "hour_index": 0,
+        "hour_label": "0300",
+        "date": "June 26, 1862",
+        "event_type": "march",
+        "unit": "Jackson's Valley Army",
+        "side": "confederate",
+        "from": [-77.345, 37.720],
+        "to": [-77.345, 37.680],
+        "action": "Column departs Ashland before dawn — marching south in darkness toward Pole Green Road",
+        "strength": 18500,
+        "hour_progress": 0.4
+      },
+      {
+        "hour_index": 1,
+        "hour_label": "0800",
+        "date": "June 26, 1862",
+        "event_type": "march",
+        "unit": "Jackson's Valley Army",
+        "side": "confederate",
+        "from": [-77.345, 37.720],
+        "to": [-77.345, 37.660],
+        "action": "Column continues south — already 4 hours behind schedule. Lee expects Jackson at noon.",
+        "strength": 18500,
+        "hour_progress": 0.8
+      },
+      {
+        "hour_index": 2,
+        "hour_label": "1000",
+        "date": "June 26, 1862",
+        "event_type": "march",
+        "unit": "A.P. Hill's Light Division",
+        "side": "confederate",
+        "from": [-77.430, 37.595],
+        "to": [-77.410, 37.592],
+        "action": "Hill waits at Meadow Bridges for Jackson's signal — ordered to hold until flank secured",
+        "strength": 16000,
+        "hour_progress": 0.2
+      },
+      {
+        "hour_index": 3,
+        "hour_label": "1500",
+        "date": "June 26, 1862",
+        "event_type": "combat",
+        "unit": "A.P. Hill's Light Division",
+        "side": "confederate",
+        "from": [-77.430, 37.595],
+        "to": [-77.375, 37.588],
+        "action": "Hill loses patience — crosses Meadow Bridges without Jackson. Opens the battle prematurely.",
+        "strength": 16000,
+        "hour_progress": 0.9,
+        "casualties": 1400
+      },
+      {
+        "hour_index": 4,
+        "hour_label": "1530",
+        "date": "June 26, 1862",
+        "event_type": "combat",
+        "unit": "Martindale's Brigade (Union V Corps)",
+        "side": "union",
+        "from": [-77.355, 37.615],
+        "to": [-77.348, 37.606],
+        "action": "Union pickets skirmish with Jackson's lead scouts on Cold Harbor Road — YOUR NEIGHBORHOOD",
+        "strength": 3000,
+        "hour_progress": 0.5
+      },
+      {
+        "hour_index": 5,
+        "hour_label": "1600",
+        "date": "June 26, 1862",
+        "event_type": "combat",
+        "unit": "Hill vs. Porter — Main Battle Line",
+        "side": "confederate",
+        "from": [-77.395, 37.590],
+        "to": [-77.362, 37.585],
+        "action": "Repeated Confederate frontal assaults repulsed at Beaver Dam Creek with heavy fire",
+        "strength": 16000,
+        "hour_progress": 1.0,
+        "casualties": 1484
+      },
+      {
+        "hour_index": 6,
+        "hour_label": "1730",
+        "date": "June 26, 1862",
+        "event_type": "march",
+        "unit": "Jackson's Valley Army",
+        "side": "confederate",
+        "from": [-77.345, 37.660],
+        "to": [-77.348, 37.625],
+        "action": "Jackson finally reaches Hundley's Corner — 5+ hours late. YOUR STREET. Column halts.",
+        "strength": 18500,
+        "hour_progress": 1.0
+      },
+      {
+        "hour_index": 7,
+        "hour_label": "1900",
+        "date": "June 26, 1862",
+        "event_type": "retreat",
+        "unit": "Union V Corps (Porter)",
+        "side": "union",
+        "from": [-77.362, 37.598],
+        "to": [-77.295, 37.548],
+        "action": "Porter orders night withdrawal — flanked and unable to hold. Full corps retreats south.",
+        "strength": 27000,
+        "hour_progress": 0.7
+      },
+      {
+        "hour_index": 8,
+        "hour_label": "2100",
+        "date": "June 26, 1862",
+        "event_type": "encamp",
+        "unit": "Jackson's Valley Army",
+        "side": "confederate",
+        "from": [-77.348, 37.625],
+        "to": [-77.348, 37.625],
+        "action": "18,500 men bivouac at Hundley's Corner overnight. Every yard, field, and street in this neighborhood covered with Confederate infantry, artillery, and supply wagons.",
+        "strength": 18500,
+        "acres": 370
+      },
+      {
+        "hour_index": 9,
+        "hour_label": "0500",
+        "date": "June 27, 1862",
+        "event_type": "march",
+        "unit": "Jackson's Valley Army",
+        "side": "confederate",
+        "from": [-77.348, 37.625],
+        "to": [-77.295, 37.548],
+        "action": "Dawn — column breaks camp, marches south down Cold Harbor Road toward Gaines' Mill",
+        "strength": 18500,
+        "hour_progress": 0.6
+      },
+      {
+        "hour_index": 10,
+        "hour_label": "1400",
+        "date": "June 27, 1862",
+        "event_type": "combat",
+        "unit": "Jackson + Longstreet vs. Porter — Gaines' Mill",
+        "side": "confederate",
+        "from": [-77.295, 37.548],
+        "to": [-77.287, 37.535],
+        "action": "Largest engagement of the Seven Days. Confederate assault breaks Union line at Gaines' Mill.",
+        "strength": 57000,
+        "hour_progress": 1.0,
+        "casualties": 8750
+      },
+      {
+        "hour_index": 11,
+        "hour_label": "1800",
+        "date": "June 27, 1862",
+        "event_type": "casualties",
+        "unit": "Both Armies — Gaines' Mill",
+        "side": "confederate",
+        "from": [-77.287, 37.535],
+        "to": [-77.287, 37.535],
+        "action": "Battle ends. Combined casualties: ~8,750. Porter retreats across Chickahominy River.",
+        "strength": 57000,
+        "casualties": 8750
+      }
+    ]
+  },
+  "geometry": { "type": "Point", "coordinates": [-77.3599, 37.5985] }
+},
+
+
+    { "type": "Feature", "properties": { "name": "Gaines' Mill", "campaign": "Seven Days Battles", "result": "Confederate", "intel": "The largest engagement of the Seven Days. Lee broke the Union line after repeated assaults. Forced McClellan to abandon his supply base.", "year": 1862, "movements": { "confederate": [[-77.31, 37.59], [-77.295, 37.585], [-77.287, 37.579]], "union_defense": [[-77.28, 37.57], [-77.285, 37.575]] } }, "geometry": { "type": "Point", "coordinates": [-77.2872, 37.579] } },
+    { "type": "Feature", "properties": { "name": "Garnett's & Golding's Farms", "campaign": "Seven Days Battles", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.3145, 37.5532] } },
+    { "type": "Feature", "properties": { "name": "Savage's Station", "campaign": "Seven Days Battles", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.271, 37.5222] } },
+    { "type": "Feature", "properties": { "name": "Glendale/White Oak Swamp", "campaign": "Seven Days Battles", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.2381, 37.4379] } },
+    { "type": "Feature", "properties": { "name": "Malvern Hill", "campaign": "Seven Days Battles", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.2509, 37.4124] } },
+    { "type": "Feature", "properties": { "name": "Cedar Mountain", "campaign": "Northern Virginia Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-78.0658, 38.4014] } },
+    { "type": "Feature", "properties": { "name": "Rappahannock Station I", "campaign": "Northern Virginia Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.8302, 38.5272] } },
+    { "type": "Feature", "properties": { "name": "Manassas Station Operations", "campaign": "Northern Virginia Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.5453, 38.7322] } },
+    { "type": "Feature", "properties": { "name": "Thoroughfare Gap", "campaign": "Northern Virginia Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.7148, 38.8243] } },
+    { "type": "Feature", "properties": { "name": "Manassas II", "campaign": "Northern Virginia Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.5213, 38.8125] } },
+    { "type": "Feature", "properties": { "name": "Chantilly", "campaign": "Northern Virginia Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.3695, 38.8645] } },
+    { "type": "Feature", "properties": { "name": "Fredericksburg I", "campaign": "Fredericksburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.4705, 38.2995] } },
+    { "type": "Feature", "properties": { "name": "Kelly's Ford", "campaign": "Unknown", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.7799, 38.4769] } },
+    { "type": "Feature", "properties": { "name": "Suffolk", "campaign": "Unknown", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-76.5829, 36.7149] } },
+    { "type": "Feature", "properties": { "name": "Chancellorsville", "campaign": "Chancellorsville Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.6484, 38.3105] } },
+    { "type": "Feature", "properties": { "name": "Salem Church", "campaign": "Chancellorsville Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.5309, 38.2889] } },
+    { "type": "Feature", "properties": { "name": "Fredericksburg II", "campaign": "Chancellorsville Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.4684, 38.2957] } },
+    { "type": "Feature", "properties": { "name": "Brandy Station", "campaign": "Gettysburg Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.8936, 38.5018] } },
+    { "type": "Feature", "properties": { "name": "Aldie", "campaign": "Gettysburg Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.6588, 38.9826] } },
+    { "type": "Feature", "properties": { "name": "Middleburg", "campaign": "Gettysburg Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.7597, 38.9678] } },
+    { "type": "Feature", "properties": { "name": "Upperville", "campaign": "Gettysburg Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.8343, 38.9851] } },
+    { "type": "Feature", "properties": { "name": "Auburn I", "campaign": "Bristoe Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.7, 38.7] } },
+    { "type": "Feature", "properties": { "name": "Bristoe Station", "campaign": "Bristoe Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.5418, 38.7234] } },
+    { "type": "Feature", "properties": { "name": "Auburn II", "campaign": "Bristoe Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.7018, 38.7021] } },
+    { "type": "Feature", "properties": { "name": "Buckland Mills", "campaign": "Bristoe Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.692, 38.7747] } },
+    { "type": "Feature", "properties": { "name": "Rappahannock Station II", "campaign": "Bristoe Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.8136, 38.533] } },
+    { "type": "Feature", "properties": { "name": "Mine Run", "campaign": "Mine Run Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-77.8187, 38.3379] } },
+    { "type": "Feature", "properties": { "name": "Morton's Ford", "campaign": "Unknown", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.904, 38.3746] } },
+    { "type": "Feature", "properties": { "name": "Wilderness", "campaign": "Overland Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.7597, 38.3164] } },
+    { "type": "Feature", "properties": { "name": "Port Walthall Junction", "campaign": "Bermuda Hundred Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4028, 37.3116] } },
+    { "type": "Feature", "properties": { "name": "Spotsylvania Court House", "campaign": "Overland Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.5981, 38.2242] } },
+    { "type": "Feature", "properties": { "name": "Cloyd's Mountain", "campaign": "Unknown", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-80.709, 37.1746] } },
+    { "type": "Feature", "properties": { "name": "Swift Creek", "campaign": "Bermuda Hundred Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4118, 37.2861] } },
+    { "type": "Feature", "properties": { "name": "Chester Station", "campaign": "Bermuda Hundred Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4122, 37.3529] } },
+    { "type": "Feature", "properties": { "name": "Yellow Tavern", "campaign": "Overland Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4552, 37.6599] } },
+    { "type": "Feature", "properties": { "name": "Proctor's Creek", "campaign": "Bermuda Hundred Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4277, 37.3935] } },
+    { "type": "Feature", "properties": { "name": "Ware Bottom Church", "campaign": "Bermuda Hundred Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.3914, 37.3444] } },
+    { "type": "Feature", "properties": { "name": "North Anna", "campaign": "Overland Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4943, 37.8862] } },
+    { "type": "Feature", "properties": { "name": "Wilson's Wharf", "campaign": "Overland Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-76.9967, 37.3067] } },
+    { "type": "Feature", "properties": { "name": "Totopotomoy Creek", "campaign": "Overland Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.2987, 37.634] } },
+    { "type": "Feature", "properties": { "name": "Haw's Shop", "campaign": "Overland Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.3118, 37.676] } },
+    { "type": "Feature", "properties": { "name": "Old Church", "campaign": "Overland Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.2209, 37.6444] } },
+    { "type": "Feature", "properties": { "name": "Cold Harbor", "campaign": "Overland Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.285, 37.59] } },
+    { "type": "Feature", "properties": { "name": "Petersburg I", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.3831, 37.2038] } },
+    { "type": "Feature", "properties": { "name": "Petersburg II", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.3782, 37.2211] } },
+    { "type": "Feature", "properties": { "name": "Lynchburg", "campaign": "Unknown", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-79.1832, 37.3845] } },
+    { "type": "Feature", "properties": { "name": "Jerusalem Plank Road", "campaign": "Petersburg Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.3767, 37.1844] } },
+    { "type": "Feature", "properties": { "name": "Saint Mary's Church", "campaign": "Petersburg Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.1506, 37.4322] } },
+    { "type": "Feature", "properties": { "name": "Sappony Church", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4531, 36.9459] } },
+    { "type": "Feature", "properties": { "name": "Ream's Station I", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4226, 37.0959] } },
+    { "type": "Feature", "properties": { "name": "Deep Bottom I", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.2609, 37.4359] } },
+    { "type": "Feature", "properties": { "name": "Crater", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.3777, 37.2183] } },
+    { "type": "Feature", "properties": { "name": "Deep Bottom II", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.2844, 37.4438] } },
+    { "type": "Feature", "properties": { "name": "Globe Tavern", "campaign": "Petersburg Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4203, 37.1747] } },
+    { "type": "Feature", "properties": { "name": "Ream's Station II", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4226, 37.0959] } },
+    { "type": "Feature", "properties": { "name": "Peebles' Farm", "campaign": "Petersburg Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.4537, 37.1705] } },
+    { "type": "Feature", "properties": { "name": "Chaffin's Farm / New Market Heights", "campaign": "Petersburg Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.3729, 37.4268] } },
+    { "type": "Feature", "properties": { "name": "Saltville I", "campaign": "Unknown", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-81.7592, 36.8857] } },
+    { "type": "Feature", "properties": { "name": "Darbytown & New Market Roads", "campaign": "Petersburg Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.346703, 37.4576] } },
+    { "type": "Feature", "properties": { "name": "Darbytown Road", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.3574, 37.483] } },
+    { "type": "Feature", "properties": { "name": "Boydton Plank Road", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.5116, 37.1431] } },
+    { "type": "Feature", "properties": { "name": "Fair Oaks & Darbytown Road", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.334, 37.494] } },
+    { "type": "Feature", "properties": { "name": "Marion", "campaign": "Unknown", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-81.4873, 36.852] } },
+    { "type": "Feature", "properties": { "name": "Saltville II", "campaign": "Unknown", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-81.7674, 36.8646] } },
+    { "type": "Feature", "properties": { "name": "Trevilian Station", "campaign": "Overland Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.066, 38.0497] } },
+    { "type": "Feature", "properties": { "name": "Cockpit Point", "campaign": "Unknown", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-77.2642, 38.5586] } },
+    { "type": "Feature", "properties": { "name": "Kernstown I", "campaign": "Shenandoah Valley Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-78.2058, 39.1431] } },
+    { "type": "Feature", "properties": { "name": "McDowell", "campaign": "Shenandoah Valley Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-79.4754, 38.3247] } },
+    { "type": "Feature", "properties": { "name": "Front Royal", "campaign": "Shenandoah Valley Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-78.1923, 38.936] } },
+    { "type": "Feature", "properties": { "name": "Winchester I", "campaign": "Shenandoah Valley Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-78.1744, 39.1773] } },
+    { "type": "Feature", "properties": { "name": "Cross Keys", "campaign": "Shenandoah Valley Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-78.8438, 38.3579] } },
+    { "type": "Feature", "properties": { "name": "Port Republic", "campaign": "Shenandoah Valley Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1862 }, "geometry": { "type": "Point", "coordinates": [-78.7933, 38.3002] } },
+    { "type": "Feature", "properties": { "name": "Winchester II", "campaign": "Gettysburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-78.1671, 39.1847] } },
+    { "type": "Feature", "properties": { "name": "Manassas Gap", "campaign": "Gettysburg Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1863 }, "geometry": { "type": "Point", "coordinates": [-78.114, 38.914] } },
+    { "type": "Feature", "properties": { "name": "Cove Mountain", "campaign": "Unknown", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-81.122, 37.043] } },
+    { "type": "Feature", "properties": { "name": "New Market", "campaign": "Shenandoah Valley Campaign 1864", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.6783, 38.6552] } },
+    { "type": "Feature", "properties": { "name": "Piedmont", "campaign": "Shenandoah Valley Campaign 1864", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.8994, 38.2142] } },
+    { "type": "Feature", "properties": { "name": "Staunton River Bridge", "campaign": "Petersburg Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.7044, 36.8857] } },
+    { "type": "Feature", "properties": { "name": "Cool Spring", "campaign": "Shenandoah Valley Campaign 1864", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.865, 39.1457] } },
+    { "type": "Feature", "properties": { "name": "Rutherford's Farm", "campaign": "Shenandoah Valley Campaign 1864", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.1333, 39.2193] } },
+    { "type": "Feature", "properties": { "name": "Kernstown II", "campaign": "Shenandoah Valley Campaign 1864", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.1953, 39.1395] } },
+    { "type": "Feature", "properties": { "name": "Guard Hill", "campaign": "Shenandoah Valley Campaign 1864", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.2001, 38.9531] } },
+    { "type": "Feature", "properties": { "name": "Berryville", "campaign": "Shenandoah Valley Campaign 1864", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-77.9976, 39.1621] } },
+    { "type": "Feature", "properties": { "name": "Opequon", "campaign": "Shenandoah Valley Campaign 1864", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.1325, 39.1956] } },
+    { "type": "Feature", "properties": { "name": "Fisher's Hill", "campaign": "Shenandoah Valley Campaign 1864", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.3959, 38.9838] } },
+    { "type": "Feature", "properties": { "name": "Tom's Brook", "campaign": "Shenandoah Valley Campaign 1864", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.4458, 38.9429] } },
+    { "type": "Feature", "properties": { "name": "Cedar Creek", "campaign": "Shenandoah Valley Campaign 1864", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-78.3038, 39.0208] } },
+    { "type": "Feature", "properties": { "name": "Waynesboro", "campaign": "Shenandoah Valley Campaign 1864", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-78.8962, 38.0656] } },
+    { "type": "Feature", "properties": { "name": "Namozine Church", "campaign": "Appomattox Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-77.7256, 37.2489] } },
+    { "type": "Feature", "properties": { "name": "Walkerton", "campaign": "Unknown", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1864 }, "geometry": { "type": "Point", "coordinates": [-76.9247, 37.7092] } },
+    { "type": "Feature", "properties": { "name": "Hatcher's Run", "campaign": "Petersburg Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-77.4853, 37.1305] } },
+    { "type": "Feature", "properties": { "name": "Fort Stedman", "campaign": "Petersburg Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-77.371, 37.226] } },
+    { "type": "Feature", "properties": { "name": "Lewis's Farm", "campaign": "Appomattox Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-77.5278, 37.1283] } },
+    { "type": "Feature", "properties": { "name": "Dinwiddie Court House", "campaign": "Appomattox Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-77.5871, 37.0773] } },
+    { "type": "Feature", "properties": { "name": "White Oak Road", "campaign": "Appomattox Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-77.5197, 37.1484] } },
+    { "type": "Feature", "properties": { "name": "Five Forks", "campaign": "Appomattox Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-77.6228, 37.1394] } },
+    { "type": "Feature", "properties": { "name": "Petersburg III", "campaign": "Appomattox Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-77.4774, 37.1776] } },
+    { "type": "Feature", "properties": { "name": "Sutherland's Station", "campaign": "Appomattox Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-77.5625, 37.1975] } },
+    { "type": "Feature", "properties": { "name": "Amelia Springs", "campaign": "Appomattox Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-78.079, 37.3344] } },
+    { "type": "Feature", "properties": { "name": "Rice's Station", "campaign": "Appomattox Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-78.2947, 37.2691] } },
+    { "type": "Feature", "properties": { "name": "Sailor's Creek", "campaign": "Appomattox Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-78.228, 37.3055] } },
+    { "type": "Feature", "properties": { "name": "Cumberland Church", "campaign": "Appomattox Campaign", "result": "Confederate", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-78.3866, 37.3464] } },
+    { "type": "Feature", "properties": { "name": "High Bridge", "campaign": "Appomattox Campaign", "result": "Inconclusive", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-78.3177, 37.3122] } },
+    { "type": "Feature", "properties": { "name": "Appomattox Station", "campaign": "Appomattox Campaign", "result": "Union", "intel": "Active reconnaissance required. Tactical significance high for the Richmond defense sector.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-78.8273, 37.3535] } },
+    { "type": "Feature", "properties": { "name": "Appomattox Court House", "campaign": "Appomattox Campaign", "result": "Union", "intel": "Lee surrendered to Grant here on April 9, 1865, ending the Army of Northern Virginia's resistance and effectively closing the war in the East.", "year": 1865 }, "geometry": { "type": "Point", "coordinates": [-78.794444, 37.377778] } },
+    { "type": "Feature", "properties": { "name": "Jackson's Flanking Route", "intel": "Stonewall Jackson's 18,500 men marched through this sector on Pole Green Rd to turn the Union flank at Beaver Dam Creek. Heavy wagon trains and reserve artillery filled these fields.", "year": 1862, "type": "logistics", "movements": "{\"confederate\": [[-77.4, 37.64], [-77.35, 37.63], [-77.31, 37.61]], \"union_defense\": []}" }, "geometry": { "type": "Point", "coordinates": [-77.345, 37.625] } },
+    { "type": "Feature", "properties": { "name": "Totopotomoy Creek Line (Your Sector)", "intel": "In May 1864, the Union V Corps (Warren) moved through this residential sector toward Bethesda Church. Your neighborhood sat behind the main Union line of entrenchments during the skirmishing at Totopotomoy Creek.", "year": 1864, "movements": "{\"confederate\": [[-77.33, 37.61], [-77.32, 37.6]], \"union_defense\": [[-77.35, 37.63], [-77.34, 37.62]]}" }, "geometry": { "type": "Point", "coordinates": [-77.346, 37.621] } },
+    { "type": "Feature", "properties": { "name": "Confederate Artillery Reserve", "type": "artillery", "year": 1862, "intel": "Colonel Stephen D. Lee's artillery battalion was staged here to support the assault on Beaver Dam Creek. Heavy brass Napoleons and Parrott rifles." }, "geometry": { "type": "Point", "coordinates": [-77.371, 37.612] } },
+    { "type": "Feature", "properties": { "name": "Union Field Hospital (5th Corps)", "type": "hospital", "year": 1862, "intel": "Established in a local farmhouse to treat casualties from the initial skirmishes at Mechanicsville. Overwhelmed by the evening of June 26." }, "geometry": { "type": "Point", "coordinates": [-77.341, 37.588] } },
+    { "type": "Feature", "properties": { "name": "Supply Wagon Park", "type": "logistics", "year": 1864, "intel": "A major logistics hub for the Union V Corps during the shift to Cold Harbor. Thousands of wagons passed through here to keep the lines fed." }, "geometry": { "type": "Point", "coordinates": [-77.348, 37.625] } }
+    
+,
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beaver Dam Creek Battlefield Zone",
+        "zone_type": "battlefield",
+        "year": 1862,
+        "acres": 1200,
+        "intel": "The core battlefield of June 26, 1862. Union V Corps under Fitz John Porter held this line against repeated Confederate assaults. The northern portion has been destroyed by residential development — modern subdivisions including Cold Harbor Meadows sit directly on this ground.",
+        "result": "Union"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.390, 37.610],
+          [-77.340, 37.610],
+          [-77.330, 37.590],
+          [-77.340, 37.575],
+          [-77.370, 37.572],
+          [-77.390, 37.585],
+          [-77.390, 37.610]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jackson's Approach Corridor",
+        "zone_type": "confederate_advance",
+        "year": 1862,
+        "unit": "Jackson's Valley Army",
+        "strength": 18500,
+        "frontage_miles": 1.2,
+        "intel": "Stonewall Jackson's 18,500 men marched south down Hundley's Corner and Old Cold Harbor Road on June 26, 1862. At typical campaign column spacing (4 men wide, ~1 yard per rank) this column stretched nearly 5 miles. Their late arrival — expected by noon, arriving near dusk — cost Lee a decisive victory. The corridor runs directly through what is now the Cold Harbor Meadows subdivision.",
+        "color": "#ef4444",
+        "width": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-77.345, 37.660],
+          [-77.348, 37.645],
+          [-77.350, 37.632],
+          [-77.348, 37.618],
+          [-77.345, 37.605],
+          [-77.342, 37.592]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Martindale's Picket Line",
+        "zone_type": "union_defense",
+        "year": 1862,
+        "unit": "Martindale's Brigade, V Corps",
+        "strength": 3000,
+        "frontage_miles": 1.5,
+        "acres": 180,
+        "intel": "General John Martindale's brigade (~3,000 men) was posted along this northern sector to guard against Jackson's flanking approach. Union pickets — light infantry skirmishers spaced 5-10 yards apart — would have been positioned through what is now the residential neighborhoods north of Mechanicsville. Skirmishing with Jackson's lead scouts began in late afternoon.",
+        "result": "Union"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.370, 37.615],
+          [-77.340, 37.615],
+          [-77.335, 37.608],
+          [-77.340, 37.600],
+          [-77.370, 37.600],
+          [-77.375, 37.608],
+          [-77.370, 37.615]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Confederate Overnight Encampment Zone",
+        "zone_type": "encampment",
+        "year": 1862,
+        "unit": "Jackson's Valley Army — overnight June 26-27",
+        "strength": 18500,
+        "acres": 740,
+        "intel": "After the battle Jackson's exhausted column encamped in this area overnight June 26-27, 1862. At standard Civil War encampment density (~25 men per acre in campaign conditions), 18,500 men required approximately 740 acres. Regimental camps would have covered every open field in this sector. Campfire lines, picket posts, artillery parks, and ambulance trains filled what are now residential streets and yards.",
+        "result": "Confederate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.380, 37.635],
+          [-77.330, 37.635],
+          [-77.325, 37.615],
+          [-77.330, 37.600],
+          [-77.380, 37.600],
+          [-77.385, 37.618],
+          [-77.380, 37.635]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Union Retreat Corridor — Night of June 26",
+        "zone_type": "union_defense",
+        "year": 1862,
+        "unit": "Union V Corps (Porter)",
+        "strength": 27000,
+        "intel": "After the Confederate flanking threat became untenable, Fitz John Porter ordered a night withdrawal of the entire V Corps (~27,000 men) southward toward Gaines' Mill. The retreat column moved through this corridor under cover of darkness, June 26-27. A night withdrawal under pressure was extremely dangerous — stragglers, abandoned equipment, and confusion marked the route.",
+        "color": "#3b82f6",
+        "width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-77.355, 37.598],
+          [-77.340, 37.585],
+          [-77.325, 37.572],
+          [-77.310, 37.560],
+          [-77.295, 37.548],
+          [-77.287, 37.535]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Union Main Battle Line — Beaver Dam Creek",
+        "zone_type": "union_defense",
+        "year": 1862,
+        "unit": "Sykes & Morell Divisions, V Corps",
+        "strength": 15000,
+        "frontage_miles": 2.0,
+        "acres": 320,
+        "intel": "The main Union defensive line ran along the east bank of Beaver Dam Creek. Two divisions (~15,000 men) held a 2-mile front with artillery support. At standard Civil War linear defense spacing (~1 man per yard, 2 ranks deep) this line was packed shoulder to shoulder. The creek itself, 6-8 feet deep with swampy banks, was a formidable obstacle that repulsed every Confederate frontal assault.",
+        "result": "Union"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.365, 37.598],
+          [-77.358, 37.598],
+          [-77.355, 37.575],
+          [-77.358, 37.572],
+          [-77.365, 37.572],
+          [-77.368, 37.585],
+          [-77.365, 37.598]
+        ]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A.P. Hill's Assault Zone",
+        "zone_type": "confederate_advance",
+        "year": 1862,
+        "unit": "A.P. Hill's Light Division",
+        "strength": 16000,
+        "intel": "General A.P. Hill launched the primary Confederate frontal assault against the Beaver Dam Creek line with ~16,000 men. Attack columns advanced across open ground under murderous artillery and musket fire. Hill suffered ~1,400 casualties in failed frontal assaults before Lee called off the attack. The open fields west of the creek where his men charged are now largely developed.",
+        "color": "#ef4444",
+        "width": 6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-77.400, 37.590],
+          [-77.385, 37.588],
+          [-77.372, 37.586],
+          [-77.362, 37.585]
+        ]
+      }
+    }
+
+  ]
+}
